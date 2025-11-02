@@ -9,7 +9,7 @@ window.title("LogiTalk")
 
 
 
-menu_frame = CTkFrame(window, fg_color="blue", width=200)
+menu_frame = CTkFrame(window, fg_color="red", width=200)
 menu_frame.pack_propagate(False)
 menu_frame.pack(side=LEFT, fill="y")
 
@@ -75,5 +75,6 @@ try:
     threading.Thread(target=recv_message, daemon=True).start()
 except:
     add_message("Не вдалося під'єднатися до серверу")
+
 
 window.mainloop()
