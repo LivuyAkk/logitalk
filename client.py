@@ -9,7 +9,7 @@ window.title("LogiTalk")
 
 
 
-menu_frame = CTkFrame(window, fg_color="grey", width=200)
+menu_frame = CTkFrame(window, fg_color="blue", width=200)
 menu_frame.pack_propagate(False)
 menu_frame.pack(side=LEFT, fill="y")
 
