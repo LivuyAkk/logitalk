@@ -18,7 +18,7 @@ username_label.pack(pady=10)
 
 username = CTkEntry(menu_frame)
 username.pack(pady=20)
-username.insert(0, "Bogdan Velikiy")
+username.insert(0, "Kostya")
 
 image_label = CTkLabel(menu_frame, text="")
 image_label.pack()
